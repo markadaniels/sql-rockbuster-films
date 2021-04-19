@@ -1,4 +1,5 @@
 ```sql
+-- Top 10 countries with the highest number of customers
 CREATE VIEW	top_10_view AS
 SELECT		co.country,
                 count(cu.customer_id) AS "Customer Count"
