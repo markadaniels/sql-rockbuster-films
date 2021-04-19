@@ -1,5 +1,5 @@
 ```sql
--- Top top 5 customers derived from the top 10 cities
+-- Top 5 customers derived from the top 10 cities
 CREATE VIEW	top_5_customers_view AS
 SELECT		cu.customer_id,
 		cu.first_name,
